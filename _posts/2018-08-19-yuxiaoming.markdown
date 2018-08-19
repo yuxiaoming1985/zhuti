@@ -6,7 +6,7 @@ date:       2018-04-10 12:00:00
 author:     "Mage"
 header-img: "img/post-bg-apple-event-2015.jpg"
 tags:
-    - 心理学
+    - 自由撰稿人俞小明出品
 ---
 
 # 办学宗旨
