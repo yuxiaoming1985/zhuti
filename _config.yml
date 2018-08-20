@@ -1,21 +1,21 @@
 # Site settings
-title: Mage's Blog
-SEOTitle: mage的博客
+title: 努努书坊-免费文种公共域图书馆
+SEOTitle: 努努书坊、免费文种公共域图书馆、自由撰稿人、笔会、代写图文段子、代笔写作文案、策划
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
+email: yeshangying1985@gmail.com
 description: "关于前端与设计、黑客与画家 | mage，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @mage 的个人博客，与你一起发现更大的世界。"
-keyword: "mage的博客, Hux Blog, 博客, 个人网站, C++,Erlang,Python,移动互联网,手机游戏,app, 设计"
-url: "https://z99.xyz"              # your host, for absolute URL
+keyword: "努努书坊, 免费文种公共域图书馆, 自由撰稿人博客, 俞小明笔会, C++,Erlang,Python,移动互联网,手机游戏,app, 设计"
+url: "https://ruanwenku.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     fengmm521
-zhihu_username:     da-xiong-23-87
-github_username:    fengmm521
-twitter_username:   fengmm521
+weibo_username:     61626120
+zhihu_username:     13777235376
+github_username:    yuxiaoming1985
+twitter_username:   yuxiaoming19851
 #facebook_username:  huxpro
 # linkedin_username:  firstname-lastname-idxxxx
 
@@ -56,7 +56,7 @@ netease_comment: false
 
 
 # Analytics settings
-# Baidu Analytics 
+# Baidu Analytics
 # ba_track_id: [your track id]
 
 # Google Analytics
@@ -67,7 +67,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写代码，画电路图，<br>技术可以改变世界！"
+sidebar-about-description: "写文章，写论文、写......<br>写作可以影响世界！"
 sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -91,7 +91,7 @@ friends: [
     #     href: "http://su.gallery/"
     # },{
         title: "主页",
-        href: "http://woodcol.com/"
+        href: "http://ruanwenku.com/"
     }
     # ,{
     #     title: "前端外刊评论",
