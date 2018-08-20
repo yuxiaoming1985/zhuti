@@ -1,5 +1,5 @@
 # Site settings
-title: 软文库-免费文种公共域图书馆
+title: 努努书坊-免费文种公共域图书馆
 SEOTitle: 努努书坊、软文写作、软文库、软文代写、免费文种公共域图书馆、自由撰稿人、笔会、代写图文段子、代笔写作文案、策划
 header-img: img/home-bg.jpg
 email: yeshangying1985@gmail.com
@@ -67,7 +67,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写文章，写论文、写......<br>写作可以影响世界！"
+sidebar-about-description: "写文章，写论文、写......<br>写作可以影响世界！微信电话：13777235376"
 sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
