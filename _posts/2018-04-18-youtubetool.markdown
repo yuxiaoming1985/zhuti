@@ -77,4 +77,5 @@ github.io地址：http://tboy.xyz
 这个是最好的，也是最方便的，也是最自由的，但有一点不太方便，就是国内的阿里云了腾讯云了什么的，域名都要备案。
 我的独立博客:
 
-http://woodcol.com
+http://ruanwenku.com
+http://kanunu8.org
