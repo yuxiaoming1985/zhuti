@@ -11,14 +11,18 @@
 
     <!-- Web App Manifest -->
     <link rel="manifest" href="{{ site.baseurl }}/pwa/manifest.json">
-
+    <!--仅Android支持-->
+    <link rel="icon" href="/img/favicon.ico">
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.ico">
     <!--ios和Android都支持-->
-    <link rel="pple-touch-icon-precomposed"href="/favicon.ico">
+    <link rel="pple-touch-icon-precomposed"href="/img/favicon.ico">
     <!-- Canonical URL -->
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
+    <!-- win 8 磁贴图标 -->
+    <meta name="msapplication-TileImage" content="images/favicon.ico">
+    <!-- win 8 磁贴颜色 -->
+    <meta name="msapplication-TileColor" content="#3372DF">
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
 
