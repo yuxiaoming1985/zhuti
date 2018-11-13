@@ -1,9 +1,12 @@
 ---
-layout: post
-title: "写作教学视频公开课之中国思想史发展"
-subtitle: "教你如何学写作 教你如何学广告。"
-date: 2018-04-10 12:00:00author: "Mage"header-img: "img/post-yu1.jpg"
-tags: - 写作教学公开课之中国思想史发展
+layout:     post
+title:      "写作教学公开课之中国思想史发展"
+subtitle: "广告写作代笔、公众号内容写作、百家号写作、微博写作、新闻写作。"
+date:       2018-04-10 12:00:00
+author:     "俞小明"
+header-img: "img/post-yu1.jpg"
+tags:
+    - 自由撰稿人、代写图文段子、承接各类商业约稿
 ---
 
 # 写作教学公开课之中国思想史发展
