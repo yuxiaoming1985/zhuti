@@ -4,7 +4,7 @@ title:      "《我是填词人》教你如何写作与演讲"
 subtitle: "演讲培训写作培训。"
 date:       2018-04-10 12:00:00
 author:     "Mage"
-header-img: "img/post-yu1.jpg"
+header-img: "img/yanjiang.jpg"
 tags:
     - 自由撰稿人、代写图文段子、承接各类商业约稿
 
