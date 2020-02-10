@@ -4,7 +4,7 @@ title:      "教你如何写歌词之《自我晚熟》PK李宗盛歌词"
 subtitle: "代写段子：13777235376"
 date:       2018-04-10 12:00:00
 author:     "Mage"
-header-img: "img/post-yu1.jpg"
+header-img: "imgyanjiang.jpg"
 tags:
     - 教你如何写歌词之《自我晚熟》PK李宗盛歌词
 
@@ -12,7 +12,7 @@ tags:
 ---
 
 ### 歌词内容
-
+![联系方式请扫二维码](/img/yanjiang.jpg)
 天空不作美
 
 雨一直疲于狼狈
