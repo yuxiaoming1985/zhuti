@@ -1,14 +1,3 @@
----
-layout:     post
-title:      "调查令申请书"
-subtitle: "调查令申请书"
-date:       2021-07-21 22:00:00
-author:     "小明"
-header-img: "img/post-yu1.jpg"
-tags:
-    - python
----
-
 # 调查令申请书
 
 申请人：
