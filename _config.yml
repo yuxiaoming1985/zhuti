@@ -1,34 +1,39 @@
 # Site settings
-title: 全球法律爱好者联谊会-法律文献公共域图书馆
-SEOTitle: 法律资料、法律文献、代写诉状、法律维权、民事诉讼、刑事诉讼、土地拆迁、人身损害赔偿、侵权纠纷
-合同纠纷、人身损害赔偿、抵押合同、阴阳合同纠纷、婚姻法、离婚诉讼、劳动纠纷、债权、抵押权、质权、金融借贷
+title: gankai Blog
+SEOTitle: gankai博客 | gankai Blog
+header-img: img/homePage.jpg
+email: gk1424301572@outlook.com
+description: "Things that can make you miserable will surely make you strong, grow up, and must experience what others can't!"
+keyword: "Java, JavaScript, 博客, GitHubGanKai, vue, web, blog, js"
+url: "http://gankai.online/."          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/GitHubGanKai/blog.git" # you code repository
 
-header-img: img/home-bg.jpg
-email: yeshangying1985@gmail.com
-description: " | 快加入我们的议员队伍吧，你的出现将擦出思想的火花。 | 法律永远不是钱权的代名词，它是一种精神一种信仰。"
-keyword: "代写诉状、纠纷调解、证据搜集、案卷整理、法律咨询、法律救济、法律援助"
-url: "https://kanunu8.org"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "Always optimistic about the future!"
+sidebar-avatar: /img/about-BY-gentle.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     yuxiaoming1985
-zhihu_username:     我是蝌蚪我怕谁
-github_username:    yuxiaoming1985
-twitter_username:   yuxiaoming19851
-#facebook_username:  huxpro
-# linkedin_username:  firstname-lastname-idxxxx
+weibo_username:     6131084360
+zhihu_username:     ren-qing-zi-ji-9
+github_username:    GitHubGanKai
+# facebook_username:  baiying.qiu.7
+jianshu_username:   4365773d2dd5
+#twitter_username:   GitHubGanKai
+
 
 
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-highlighter: rouge
 permalink: pretty
+# permalink: none
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
@@ -39,44 +44,50 @@ gems: [jekyll-paginate]
 
 
 
+
 # Markdown settings
 # replace redcarpet to kramdown,
 # although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
+highlighter: rouge
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
 
 
-# Disqus settings
-disqus_username: mage
+# 评论系统
+# Disqus（https://disqus.com/）
+# disqus_username: GitHubGanKai
 
-# Netease setttings
-netease_comment: false
+# Gitalk
+gitalk:
+  enable: false    #是否开启Gitalk评论
+  clientID: d2223ef21ecae706fcb4                            #生成的clientID
+  clientSecret: 8fecef465f9f3dc81f11bd98ec59d4644eb9282a    #生成的clientSecret
+  repo: blog    #仓库名称 
+  owner: GitHubGanKai    #github用户名
+  admin: GitHubGanKai
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
+# 统计
 
 # Analytics settings
 # Baidu Analytics
-# ba_track_id: [your track id]
+ba_track_id: 5b94756de87b260b647aed0a5ca70e7c
 
 # Google Analytics
-ga_track_id: 'yuxiaoming1985@gmail.com'            # Format: UA-xxxxxx-xx
-ga_domain: kanunu8.org
+# ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+# ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
-
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "快加入我们的议员队伍吧，你的出现将擦出思想的火花！"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
 
 
 
@@ -89,38 +100,18 @@ service-worker: true
 # Friends
 friends: [
     {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
-        title: "主页",
-        href: "http://woodcol.com/"
+        title: "WY",
+        href: "http://zhengwuyang.com"
+    },{
+        title: "简书·GK",
+        href: "http://www.jianshu.com/u/4365773d2dd5"
+    },{
+        title: "Apple",
+        href: "https://apple.com"
+    },{
+        title: "Apple Developer",
+        href: "https://developer.apple.com/"
     }
-    # ,{
-    #     title: "前端外刊评论",
-    #     href: "http://qianduan.guru/"
-    # },{
-    #     title: "天镶的博客",
-    #     href: "http://lingyu.wang/"
-    # },{
-    #     title: "Luke 的自留地",
-    #     href: "http://hmqk1995.github.io"
-    # },{
-    #     title: "Ebn's Blog",
-    #     href: "http://ebnbin.com/"
-    # },{
-    #     title: "SmdCn's Blog",
-    #     href: "http://blog.smdcn.net"
-    # },{
-    #     title: "David's Game",
-    #     href: "https://www.ruoyaowu.com/"
-    # },{
-    #     title: "DHong Say",
-    #     href: "http://dhong.co"
-    # },{
-    #     title: "尹峰以为",
-    #     href: "http://ingf.github.io/"
-    # },{
-    #     title: "解旻的博客",
-    #     href: "http://xieminis.me/"
-    # }
 ]
+
+theme: jekyll-theme-hacker
